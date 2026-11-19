@@ -1,3 +1,5 @@
+Python
+
 import json
 import os
 import re
@@ -7,8 +9,8 @@ from bs4 import BeautifulSoup
 from curl_cffi import requests as cffi_requests
 
 # ================= CONFIGURAÇÕES =================
-TELEGRAM_TOKEN = os.environ["TELEGRAM_TOKEN"]
-CHAT_ID = os.environ["CHAT_ID"]
+TELEGRAM_TOKEN = "9030207326:AAEyhyx2GfyWQfqIbKCxwx4gHOIwEyiP68k"
+CHAT_ID = "661499157"
 
 PRECO_MINIMO = 200
 FICHEIRO_VISTOS = "anuncios_vistos.json"
